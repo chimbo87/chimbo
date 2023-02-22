@@ -15,6 +15,7 @@ function Home() {
         <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
            Aliquam varius felis at leo varius, sit amet sagittis nisi varius. Nam ultrices, 
           urna sed tristique tempus, magna odio laoreet sapien, at pellentesque massa.</h5>
+        <button>Our Work</button>
       </div>
     </div>
     <div class="carousel-item"  id='imgHomeBox'>
@@ -24,6 +25,7 @@ function Home() {
         <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
           liquam varius felis at leo varius, sit amet sagittis nisi varius. Nam ultrices, 
           urna sed tristique tempus, magna odio laoreet sapien, at pellentesque massa.</h5>
+          <button>Our Work</button>
       </div>
     </div>
     <div class="carousel-item"  id='imgHomeBox'>
@@ -33,6 +35,7 @@ function Home() {
         <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
           liquam varius felis at leo varius, sit amet sagittis nisi varius. Nam ultrices, u
           rna sed tristique tempus, magna odio laoreet sapien, at pellentesque massa</h5>
+          <button>Our Work</button>
       </div>
     </div>
   </div>
@@ -51,40 +54,56 @@ function Home() {
           <div class="col" id='missionCard'>
            <div id='innerCard'>
               <i class="far fa-comments"></i>
-              <h4>We are Freindly</h4>
            </div>
+              <h4>Friendly and Customer Support</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                      Aliquam varius felis at leo varius, sit amet sagittis</p>
           </div>
           <div class="col" id='missionCard'>
           <div id='innerCard'>
               <i class="far fa-paper-plane"></i>
-              <h4>We are Freindly</h4>
+              
            </div>
+           <h4>Fast Service Delivery</h4>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Aliquam varius felis at leo varius, sit amet sagittis</p>
           </div>
           <div class="col" id='missionCard'>
           <div id='innerCard'>
               <i class="fas fa-laptop-house"></i>
-              <h4>We are Freindly</h4>
+              
            </div>
+           <h4>We are Freindly</h4>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Aliquam varius felis at leo varius, sit amet sagittis</p>
           </div>
         </div>
         <div class="row">
                 <div class="col" id='missionCard'>
                     <div id='innerCard'>
                         <i class="fas fa-tools"></i>
-                        <h4>We are Freindly</h4>
+                        
                     </div>
+                    <h4>Quality Services</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                      Aliquam varius felis at leo varius, sit amet sagittis</p>
                 </div>
                 <div class="col" id='missionCard'>
                 <div id='innerCard'>
                         <i class="fas fa-hand-holding-usd"></i>
-                        <h4>We are Freindly</h4>
+                        
                     </div>
+                    <h4>Affordable Services</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                      Aliquam varius felis at leo varius, sit amet sagittis</p>
                 </div>
                 <div class="col"id='missionCard'>
                 <div id='innerCard'>
                         <i class="fas fa-drafting-compass"></i>
-                        <h4>We are Freindly</h4>
                     </div>
+                    <h4>We are Freindly</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                      Aliquam varius felis at leo varius, sit amet sagittis</p>
                 </div>
               </div>
   </div>
@@ -110,30 +129,30 @@ function Home() {
            </div>
         <div class="col-4" id='homeOfferTxt'>
               <ul>
+              <li><h3>Architectural Designs</h3></li>
+                  <li><h3>Houses, Malls & Schools</h3></li>
+                  <li><h3>Swimming pools or Ponds</h3></li>
+                  <li><h3>Bridges and Gobious</h3></li>
+                  <li><h3>Tiling</h3></li>
                   <li><h3>Paving</h3></li>
                   <li><h3>Roofing and Ceiling skimming</h3></li>
                   <li><h3>Painting</h3></li>
                   <li><h3>Plumbing</h3></li>
                   <li><h3>House Wiring</h3></li>
-                  <li><h3>Development and Maintenance</h3></li>
-                  <li><h3>Development and Maintenance</h3></li>
-                  <li><h3>Development and Maintenance</h3></li>
-                  <li><h3>Development and Maintenance</h3></li>
-                  <li><h3>Development and Maintenance</h3></li>
               </ul>
         </div>
         <div class="col-4" id='homeOfferTxt'>
               <ul>
-                  <li><h3>Development and Maintenance</h3></li>
-                  <li><h3>Development and Maintenance</h3></li>
-                  <li><h3>Development and Maintenance</h3></li>
-                  <li><h3>Development and Maintenance</h3></li>
-                  <li><h3>Development and Maintenance</h3></li>
-                  <li><h3>Development and Maintenance</h3></li>
-                  <li><h3>Development and Maintenance</h3></li>
-                  <li><h3>Development and Maintenance</h3></li>
-                  <li><h3>Development and Maintenance</h3></li>
-                  <li><h3>Development and Maintenance</h3></li>
+                  <li><h3>Paving</h3></li>
+                  <li><h3>Roofing and Ceiling skimming</h3></li>
+                  <li><h3>Painting</h3></li>
+                  <li><h3>Plumbing</h3></li>
+                  <li><h3>House Wiring</h3></li>
+                  <li><h3>Architectural Designs</h3></li>
+                  <li><h3>Houses, Malls & Schools</h3></li>
+                  <li><h3>Swimming pools or Ponds</h3></li>
+                  <li><h3>Bridges and Gobious</h3></li>
+                  <li><h3>Tiling</h3></li>
               </ul>
         </div>
       </div>
@@ -158,7 +177,7 @@ function Home() {
                     </p>
               </div>
               <div class="col">
-                  <img src="./assets/home2.jpeg" class="figure-img img-fluid rounded"alt="..."/>
+                  <img src="./assets/home2.jpeg" class="figure-img img-fluid rounded" alt="..."/>
               </div>
             </div>
             </div>
