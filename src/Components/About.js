@@ -32,29 +32,10 @@ function About() {
      </div>
     </div>
 
-  <div className='container-fluid' id='chartBox'>
-        <div class="container text-center" id='chartBoxInner'>
-        <div class="row">
-          <div class="col" id='abtChart'>
-          <i class="fas fa-chart-pie"></i>
-          <h4>+ 1000<br></br>Projects Completed</h4>
-          </div>
-          <div class="col" id='abtChart'>
-          <i class="fas fa-user-friends"></i>
-          <h4>+ 1000<br></br>Projects Completed</h4>
-          </div>
-          <div class="col" id='abtChart'>
-          <i class="fas fa-chart-line"></i>
-          <h4>+ 1000<br></br>Projects Completed</h4>
-          </div>
-        </div>
-      </div>
-  </div>
 
 
 
     <div className='container' id='faq'>
-      <h2>Frequent Asked Questions</h2>
     <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
@@ -93,9 +74,18 @@ function About() {
     </div>
   </div>
 
- 
- 
 </div>
+</div>
+
+<div className='container-fluid' id='newsLetterBox'>
+   
+  <div className='container'id='newsLetter'>
+   <h3>Please sign-up to our News Letter</h3>
+      <div class="input-group mb-3">
+       <input type="text" class="form-control" placeholder="Enter your email address" aria-label="Recipient's username" aria-describedby="button-addon2" id='newsInput'/>
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2" >Send Email</button>
+      </div>
+  </div>
 </div>
 
 <div className='container-fluid' id='footer'>
