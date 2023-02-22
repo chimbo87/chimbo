@@ -1,0 +1,72 @@
+#imgHomeBox{
+    height: 80vh;
+}
+#imgHome{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+#homeTextBox{
+    padding-bottom: 200px;
+}
+#homeTextBox h1{
+    font-size: 55px;
+    color: rgb(70, 152, 219);
+    text-shadow: 2px 2px 2px rgb(32, 31, 31);
+}
+#homeTextBox h5{  
+    line-height: 2rem;
+     letter-spacing: 0.1rem;
+     font-weight: 100;
+}
+
+#homeHeadLine h2{
+    text-align: start;
+    padding-top: 30px;
+    
+}
+
+ #innerCard{
+    border: 1px solid rgba(128, 128, 128, 0.075);
+    background-color: rgba(218, 213, 213, 0.068);
+    border-radius: 4px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px ;
+    cursor: pointer;
+ }
+ #innerCard:hover{
+    background-color: rgba(218, 213, 213, 0.575);
+ }
+ #innerCard i{
+    font-size: 60px;
+    color: rgba(117, 132, 197, 0.514);
+ }
+
+#homeOfferTxt ul li {
+   list-style: circle;
+   
+}
+#homeOfferTxt ul li h3{
+    font-size: 22px;
+}
+#homeUl{
+    padding-top: 30px;
+    border-radius: 5px;
+    background-color: rgba(218, 213, 213, 0.068);
+    border: 1px solid rgba(128, 128, 128, 0.075);
+    cursor: pointer;
+}
+#homeUl:hover{
+    box-shadow: 2px 2px 10px grey;
+}
+#homeHistory{
+    padding-top: 50px;
+}
+#homeHistory h2 span{
+    color: rgb(90, 109, 214);
+    font-style: oblique;
+}

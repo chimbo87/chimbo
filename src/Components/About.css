@@ -1,0 +1,163 @@
+#aboutBox{
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-image: linear-gradient(rgba(108, 109, 110, 0.493),rgba(67, 68, 70, 0.938)),url("https://cdn.pixabay.com/photo/2019/02/06/16/32/architect-3979490_960_720.jpg");
+   
+}
+#chartBox{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+#chartBoxInner{
+    border:  1px solid rgba(128, 128, 128, 0.308);
+    padding: 40px 0px;
+    border-radius: 5px;
+    background-color: rgba(204, 202, 202, 0.171);
+}
+#aboutTxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top:  200px; */
+
+}
+#abtChart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#abtChart i{
+    color: rgb(75, 121, 190);
+    font-size: 60px;
+}
+#aboutTxt h1{
+     color: rgb(105, 141, 209);
+     font-size: 55px;
+     text-shadow: 2px 2px 2px rgb(65, 63, 63);
+    margin: 200px 0px 0px;
+}
+#aboutTxt h5{
+    color: rgb(219, 218, 217);
+    text-align: center;
+    margin-top: 20px;
+    max-width: 1000px;
+    line-height: 2rem;
+    letter-spacing: 0.08rem;
+}
+#about{
+    margin-top: 20px;
+}
+#about h2{
+    color: black;
+    
+}
+#faq{
+    margin-top: 20px;
+}
+#faq h2{
+    color: black;
+    padding-bottom: 20px;
+}
+#footer{
+    background-color: rgba(218, 213, 213, 0.267);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+#footerIcons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+   
+}
+#footerIcons i{
+    color: rgb(71, 69, 69);
+    font-size: 30px;
+}
+#footerIcons p{
+    margin-left: 30px;
+}
+#socialIcons{
+    display: flex;
+    flex-direction: row;
+}
+#footerWrap h2{
+    color: rgba(41, 94, 173, 0.938);
+    font-size: 24px;
+}
+#footerWrap h2 span{
+ 
+    padding-bottom: 4px;
+    font-size: 24px;
+}
+#footerWrap p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+#socialIcons i{
+    color: rgba(41, 94, 173, 0.938);
+    margin: 10px;
+    font-size: 30px;
+    border: 1px solid rgba(126, 124, 124, 0.356);
+    padding: 12px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#socialIcons i:hover{
+    background-color: rgba(238, 176, 176, 0.384);
+    border: none;
+}
+#footerWrap1 h2{
+    color: rgba(41, 94, 173, 0.938);
+    font-size: 24px;
+}
+#footerWrap1 h2 span{
+    
+    padding-bottom: 4px;
+}
+#footerWrap1 p{
+    margin-left: 0px;
+}
+#footerWrap1 p a{
+    text-decoration: none;
+    color: rgb(71, 69, 69);
+    font-weight: bold;
+}
+#footerWrap1 p a:hover{
+    color: rgba(41, 94, 173, 0.938);
+    text-decoration: underline;
+}
+#footerWrap2 h2{
+    color:rgba(41, 94, 173, 0.938);
+    font-size: 24px;
+}
+#footerWrap2 h2 span{
+    
+    padding-bottom: 4px;
+}
+#footerWrap2 p{
+    font-size: 18px;
+}
+#footerTall{
+    padding-top: 20px;
+    background-color: rgba(201, 200, 199, 0.747);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#footerRty{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#footerRty p{
+    color: rgba(41, 94, 173, 0.938);
+}

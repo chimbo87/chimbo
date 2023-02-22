@@ -1,0 +1,38 @@
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar{
+    box-shadow: 2px 2px 2px rgb(211, 209, 209);
+    position: fixed;
+    z-index: 100px;
+  
+}
+.nav-item{
+    margin: 0px 10px;
+}
+#logo{
+    width: 180px;
+    height: 100px;
+    object-fit: cover;
+    
+}
+#txt{
+    color: rgb(41, 75, 97);
+    font-size: 23px;
+    font-weight: 500;
+}
+#txt:hover{
+    color: rgb(151, 198, 230);
+}
+#textBtn{
+    color: whitesmoke;
+    border: 4px solid rgba(41, 94, 173, 0.938);
+    background-color:  rgba(41, 94, 173, 0.938) ;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#textBtn:hover{
+    background-color:  rgba(152, 174, 207, 0.938) ;
+    color: white;
+}
